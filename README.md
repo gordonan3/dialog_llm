@@ -14,7 +14,7 @@
 
 # Структура проекта
 
-
+```text
 dialog_llm/
 ├── configs/
 ├── notebooks/
@@ -25,7 +25,7 @@ dialog_llm/
 ├── requirements_vllm.txt
 ├── .gitignore
 └── README.md
-
+```
 ## Используемые модели
 
 ### Основная модель
@@ -51,7 +51,6 @@ dialog_llm/
 
 ```bash
 python scripts/null_baseline.py --config configs/null.yaml
-```
 
 ---
 
