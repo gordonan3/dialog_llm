@@ -1,0 +1,9 @@
+judge_model: llama-3.1-8b-instant
+
+input_path: results/df_full.csv
+output_path: results/judge_results.csv
+
+sample_size: 100
+
+temperature: 0
+max_tokens: 300
