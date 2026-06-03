@@ -160,15 +160,19 @@ LoRA улучшила overlap-based метрики относительно zero
 
 # LLM-as-a-Judge результаты
 
-Judge модели показали разные результаты.
+Judge модели показали разные результаты:
 
 ## llama-3.3-70b-versatile
 
 Чаще предпочитала zero-shot summaries.
 
+zero: 55, lora: 33, api_error: 12
+
 ## llama-3.1-8b-instant
 
 Чаще выдавала Tie между моделями.
+
+zero: 48, lora: 18, tie: 34
 
 Это показывает зависимость semantic evaluation от выбора judge модели.
 
