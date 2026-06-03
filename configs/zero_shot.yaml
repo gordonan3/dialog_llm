@@ -1,0 +1,10 @@
+model_name: Qwen/Qwen2.5-0.5B-Instruct
+
+input_path: data/test.csv
+output_path: results/zero_shot_df.csv
+
+max_model_len: 2048
+gpu_memory_utilization: 0.65
+
+temperature: 0.0
+max_tokens: 80
