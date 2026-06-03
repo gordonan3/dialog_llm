@@ -14,7 +14,7 @@
 
 # Структура проекта
 
-```text
+
 dialog_llm/
 ├── configs/
 ├── notebooks/
