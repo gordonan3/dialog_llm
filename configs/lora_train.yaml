@@ -1,0 +1,19 @@
+model_name: Qwen/Qwen2.5-0.5B-Instruct
+
+train_path: data/train.csv
+valid_path: data/validation.csv
+
+output_dir: qwen_lora
+final_dir: qwen_lora_final
+
+epochs: 2
+learning_rate: 2e-4
+
+batch_size: 2
+gradient_accumulation_steps: 4
+
+max_seq_length: 2048
+
+lora_r: 16
+lora_alpha: 16
+lora_dropout: 0
